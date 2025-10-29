@@ -1,0 +1,43 @@
+﻿@model TypingSpeedTest.Models.TypingModel
+
+<div class="container text-center mt-5">
+    <h2 class="mb-4 text-primary fw-bold">Typing Speed Test</h2>
+
+    <div class="card shadow-lg p-4 rounded-4">
+        <!-- 🆕 changed this line -->
+        <p id="givenText" class="border p-3 bg-light rounded" style="font-size:18px; line-height:1.8;" data-text="@Model.GivenText"></p>
+
+        <textarea id="typingArea" class="form-control mt-3 rounded" rows="5" placeholder="Start typing here..." disabled></textarea>
+
+        <div class="mt-4">
+            <button id="startBtn" class="btn btn-success px-4 me-2">Start Test</button>
+            <button id="resetBtn" class="btn btn-danger px-4">Reset</button>
+        </div>
+
+        <div class="mt-4">
+            <div class="progress rounded-pill" style="height: 25px;">
+                <div id="timeProgress" class="progress-bar progress-bar-striped bg-info" style="width: 100%;">
+                    <span id="timeText">60s</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <h5>🚀 WPM</h5>
+                <p id="wpm" class="fs-4 fw-bold text-dark">0</p>
+            </div>
+            <div class="col-md-4">
+                <h5>🎯 Accuracy</h5>
+                <p id="accuracy" class="fs-4 fw-bold text-success">100%</p>
+            </div>
+            <div class="col-md-4">
+                <h5>❌ Errors</h5>
+                <p id="errors" class="fs-4 fw-bold text-danger">0</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/typing.js"></script>
+<link rel="stylesheet" href="~/css/style.css" />
