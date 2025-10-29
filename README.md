@@ -42,3 +42,4 @@ Make sure you have:
 ```bash
 git clone https://github.com/Harpal-IND/TypingSpeedTest.git
 https://github.com/Harpal-IND/TypingSpeedTest.git
+<img width="1919" height="967" alt="Screenshot 2025-10-29 173759" src="https://github.com/user-attachments/assets/1bbc39ad-df28-4b02-b1dd-83a3ef70debb" />
