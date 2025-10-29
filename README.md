@@ -40,4 +40,5 @@ Make sure you have:
 
 ### 2️⃣ Clone or Download the Repository
 ```bash
-git clone https://github.com/<your-username>/TypingSpeedTest.git
+git clone https://github.com/Harpal-IND/TypingSpeedTest.git
+https://github.com/Harpal-IND/TypingSpeedTest.git
